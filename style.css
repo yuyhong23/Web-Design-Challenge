@@ -2,6 +2,41 @@
     font-size: 24px;
     color: white !important;
     background-color:rgba(23, 148, 137, 0.747);
-    padding: 10px;
+    padding: 10px;    
+}
+
+body {
+    background-color: #cccaca93;
+}
+
+.container-des {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#landing-header {
+    color:rgba(23, 148, 137, 0.747);
+}
+
+#main-description {
+    width: 70%;
+    text-align: left;
+    background-color: white;
+    font-size: 16px;
+    margin: 40px 14px;
+    padding: 30px 20px;
+    float:left;
+}
+
+#sidebar-img {
+    position: absolute;
+    width: 20%;
+    display: inline-block;
+    background-color: white;
+    font-size: 16px;
+    margin: 40px;
+    margin-left: 10px;
+    padding: 30px 20px;
+    color:rgba(23, 148, 137, 0.747);
 }
 
