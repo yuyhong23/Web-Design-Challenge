@@ -1,3 +1,7 @@
+.container {
+    display: block;
+}
+
 .navbar-brand {
     font-size: 24px;
     color: white !important;
@@ -52,6 +56,12 @@ body {
     color:rgba(23, 148, 137, 0.747);
 }
 
+#for-small-screen {
+    display: none;
+    font-size: 16px;
+    color:rgba(23, 148, 137, 0.747);
+}
+
 #temp-figure {
     text-align: center;
 }
@@ -62,6 +72,28 @@ body {
     }
 
     #for-smaller-screen {
+        display: inline;
+    }
+
+}
+
+@media (max-width: 720px) {
+    #main-description {
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 635px) {
+    #main-description {
+        width: 50%;
+    }
+
+    #for-smaller-screen {
+        display: none;
+    }
+
+    #for-small-screen {
         display: inline;
     }
 
