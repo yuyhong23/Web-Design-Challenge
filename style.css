@@ -42,7 +42,23 @@ body {
     font-size: 16px;
     margin: 40px;
     margin-left: 10px;
-    padding: 24px 20px;
+    margin-right: 10px;
+    padding: 30px 40px;
     color:rgba(23, 148, 137, 0.747);
 }
 
+#for-smaller-screen {
+    display: none;
+    font-size: 16px;
+    color:rgba(23, 148, 137, 0.747);
+}
+@media (max-width: 991px) {
+    #sidebar-img {
+        display: none;
+    }
+
+    #for-smaller-screen {
+        display: inline;
+    }
+
+}
