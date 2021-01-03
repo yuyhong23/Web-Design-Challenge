@@ -106,14 +106,19 @@ h6 {
         width: 60%;
     }
 
-    .container-compar {
-        text-align: left;
+    #comparisons {
+        width: 60%;
     }
+
 
 }
 
 @media (max-width: 635px) {
     #main-description {
+        width: 50%;
+    }
+
+    #comparisons {
         width: 50%;
     }
 
