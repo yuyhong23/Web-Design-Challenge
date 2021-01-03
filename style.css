@@ -66,6 +66,17 @@ body {
     text-align: center;
 }
 
+#comparisons {
+    width: 86%;
+    text-align: left;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 40px 14px;
+    padding: 30px 20px;
+    float: left;
+}
+
 @media (max-width: 991px) {
     #sidebar-img {
         display: none;
