@@ -28,8 +28,8 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="visual-temp.html">Max Temperature</a>
                     <a class="dropdown-item" href="visual-humi.html">Humidity</a>
-                    <a class="dropdown-item" href="#">Cloudiness</a>
-                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="visual-cloud.html">Cloudiness</a>
+                    <a class="dropdown-item" href="visual-wind.html">Wind Speed</a>
                 </div>
                 </li>
                 <li class="nav-item">
@@ -46,18 +46,17 @@
         <section id="main-description">
             <h3 id="header"><b>Max Temperature</b></h3>
             <hr>
-            <section id="temp-figure">
+            <section id="big-figure">
                 <img id="sample-image" src="Resources/assets/images/latvstemp.png" width="460" height="300"
                 alt="City Latitude vs. Max Temperature (11/18/20)"
                 title="City Latitude vs. Max Temperature (11/18/20)">
             </section>
             <br>
             <p>
-                The City Latitude vs. Max Temperature scatter plot shows the relationship between city latitude and max temperature. 
-                This scatter plot shows two different trends: 1) As latitude increases from point zero (moving in the Northern Hemisphere direction), max temperature tends to decrease, 
-                which means there is an inverse relationship between latitude and temperature. 
-                2) As latitude approaches point zero from the left (moving towards the equator from the Southern Hemisphere), 
-                max temperature tends to increase, which means there is an positive relationship between latitude and temperature.
+                Looking at the scatter plot and linear regressions we created for comparing latitude and max temperature, it is safe to say that these are the proofs for the answer that it gets hotter as we get closer to the equator. 
+                To elaborate, from the scattor plot, we can see an n-shape, with equator being the middle point. In addition, the linear regression created for the Northern Hemisphere shows a strong negative relationship between latitude and max temperature, 
+                meaning as the latitude increases from the equator, the max temperature will descrease. Similarly, the linear regression created for the Southern Hemisphere shows a moderate positive relationship between latitude and max temperature, 
+                meaning as the latitude increases in the Southern Hemisphere(getting closer to equator), the max temperature will increase. These findings make sense, because equator is the closest to the sun, and so, it should be hotter the closer we are to the equator.
             </p>
             <section id="for-smaller-screen">
                 <br>
@@ -80,14 +79,14 @@
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="#">
+                            <a href="visual-cloud.html">
                                 <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
                                 alt="City Latitude vs. Cloudiness (11/18/20)"
                                 title="City Latitude vs. Cloudiness (11/18/20)">
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="#">
+                            <a href="visual-wind.html">
                                 <img src="Resources/assets/images/latvswind.png" width="120" height="120"
                                 alt="City Latitude vs. Wind Speed (11/18/20)"
                                 title="City Latitude vs. Wind Speed (11/18/20)">
@@ -117,14 +116,14 @@
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="#">
+                            <a href="visual-cloud.html">
                                 <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
                                 alt="City Latitude vs. Cloudiness (11/18/20)"
                                 title="City Latitude vs. Cloudiness (11/18/20)">
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="#">
+                            <a href="visual-wind.html">
                                 <img src="Resources/assets/images/latvswind.png" width="120" height="120"
                                 alt="City Latitude vs. Wind Speed (11/18/20)"
                                 title="City Latitude vs. Wind Speed (11/18/20)">
@@ -155,14 +154,14 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="#">
+                        <a href="visual-cloud.html">
                             <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
                             alt="City Latitude vs. Cloudiness (11/18/20)"
                             title="City Latitude vs. Cloudiness (11/18/20)">
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="#">
+                        <a href="visual-wind.html">
                             <img src="Resources/assets/images/latvswind.png" width="120" height="120"
                             alt="City Latitude vs. Wind Speed (11/18/20)"
                             title="City Latitude vs. Wind Speed (11/18/20)">

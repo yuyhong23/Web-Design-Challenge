@@ -28,8 +28,8 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="visual-temp.html">Max Temperature</a>
                     <a class="dropdown-item" href="visual-humi.html">Humidity</a>
-                    <a class="dropdown-item" href="#">Cloudiness</a>
-                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="visual-cloud.html">Cloudiness</a>
+                    <a class="dropdown-item" href="visual-wind.html">Wind Speed</a>
                 </div>
                 </li>
                 <li class="nav-item">
@@ -44,21 +44,20 @@
 
     <main class="container-des">
         <section id="main-description">
-            <h3 id="header"><b>Max Temperature</b></h3>
+            <h3 id="header"><b>Humidity</b></h3>
             <hr>
-            <section id="temp-figure">
+            <section id="big-figure">
                 <img id="sample-image" src="Resources/assets/images/latvshumi.png" width="460" height="300"
                 alt="City Latitude vs. Humidity (11/18/20)"
                 title="City Latitude vs. Humidity (11/18/20)">
             </section>
             <br>
             <p>
-                The City Latitude vs. Humidity scatter plot shows the relationship between city latitude and Humidity. 
-                This scatter plot shows two similar trends: 
-                1) As latitude increases from point zero (moving in the Northern Hemisphere), 
-                humidity tends to increase, which means there is a positive relationship. 
-                2) As latitude moves closer to point zero from the left (moving closer to equator from the Southern Hemisphere), 
-                humidity tends to increase, which means there is a positive relationship.
+                Looking at the scatter plot and linear regressions we created for comparing latitude and humidity, it is possible that it gets more humid at the equator, 
+                although the scatter plot also shows that high humidity area is around the equator and the Northern Hemisphere. 
+                Nevertheless, the linear regression for the Northern Hemisphere shows a very weakly correlation between the increase of latitude and the increase of humidity. 
+                On the other hand, the linear regression for the Southern Hemisphere shows a slightly stronger but still weak correlation between the increase of latitude (moving closer to equator) and the increase of humidity. 
+                To conclude, we can't say safely that there is a relationship between latitude and humidity, and it it likely that other outside factors, such as seasons, affect humidity.
             </p>
             <section id="for-smaller-screen">
                 <br>
@@ -81,14 +80,14 @@
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="#">
+                            <a href="visual-cloud.html">
                                 <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
                                 alt="City Latitude vs. Cloudiness (11/18/20)"
                                 title="City Latitude vs. Cloudiness (11/18/20)">
                             </a>
                         </div>
                         <div class="col-sm-3">
-                            <a href="#">
+                            <a href="visual-wind.html">
                                 <img src="Resources/assets/images/latvswind.png" width="120" height="120"
                                 alt="City Latitude vs. Wind Speed (11/18/20)"
                                 title="City Latitude vs. Wind Speed (11/18/20)">
@@ -118,14 +117,14 @@
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="#">
+                            <a href="visual-cloud.html">
                                 <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
                                 alt="City Latitude vs. Cloudiness (11/18/20)"
                                 title="City Latitude vs. Cloudiness (11/18/20)">
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="#">
+                            <a href="visual-wind.html">
                                 <img src="Resources/assets/images/latvswind.png" width="120" height="120"
                                 alt="City Latitude vs. Wind Speed (11/18/20)"
                                 title="City Latitude vs. Wind Speed (11/18/20)">
@@ -156,14 +155,14 @@
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="#">
+                        <a href="visual-cloud.html">
                             <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
                             alt="City Latitude vs. Cloudiness (11/18/20)"
                             title="City Latitude vs. Cloudiness (11/18/20)">
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a href="#">
+                        <a href="visual-wind.html">
                             <img src="Resources/assets/images/latvswind.png" width="120" height="120"
                             alt="City Latitude vs. Wind Speed (11/18/20)"
                             title="City Latitude vs. Wind Speed (11/18/20)">

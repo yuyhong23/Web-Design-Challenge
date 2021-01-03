@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>Max Temperature</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#"><b>Latitude</b></a>
+            <a class="navbar-brand" href="index.html"><b>Latitude</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,23 +44,17 @@
 
     <main class="container-des">
         <section id="main-description">
-            <h3 id="header"><b>Summary: Latitude vs. X</b></h3>
+            <h3 id="header"><b>Cloudiness</b></h3>
             <hr>
-            <section id="figure">
-                <img id="sample-image" src="Resources/assets/images/latvstemp.png" width="180" height="180"
-                alt="City Latitude vs. Max Temperature (11/18/20)"
-                title="City Latitude vs. Max Temperature (11/18/20)">
+            <section id="big-figure">
+                <img src="Resources/assets/images/latvscloud.png" width="460" height="300"
+                 alt="City Latitude vs. Cloudiness (11/18/20)"
+                title="City Latitude vs. Cloudiness (11/18/20)">
             </section>
-            <p>
-            The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-            </p>
             <br>
             <p>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-                This site provides the source data and visualizations created as part of the analysis, as well as explanations and description 
-                of any trends and correlations witnessed.
+                The City Latitude vs. Cloudiness scatter plot shows the relationship between city latitude and cloudiness. 
+                This scatter plot seems to show that there is no obvious trend, meaning there is possibly no relationship between latitude and cloudiness.
             </p>
             <section id="for-smaller-screen">
                 <br>
@@ -106,7 +100,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="visual-temp.html" >
+                            <a href="visual-temp.html">
                                 <img src="Resources/assets/images/latvstemp.png" width="120" height="120"
                                 alt="City Latitude vs. Max Temperature (11/18/20)"
                                 title="City Latitude vs. Max Temperature (11/18/20)">
@@ -182,4 +176,3 @@
 </body>
   
 </html>
-  
