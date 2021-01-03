@@ -13,6 +13,11 @@ body {
     background-color: #cccaca93;
 }
 
+#header {
+    color:rgba(23, 148, 137, 0.747);
+    text-align: left;
+}
+
 .container-des {
     width: 1024px;
     margin: 0 auto;
@@ -76,9 +81,13 @@ body {
     text-align: center;
 }
 
-#header {
+#click-on {
+    font-size: 12px;
+}
+
+h6 {
     color:rgba(23, 148, 137, 0.747);
-    text-align: left;
+    font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -95,6 +104,10 @@ body {
 @media (max-width: 720px) {
     #main-description {
         width: 60%;
+    }
+
+    .container-compar {
+        text-align: left;
     }
 
 }
