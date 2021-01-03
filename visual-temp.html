@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>Max Temperature</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -44,23 +44,20 @@
 
     <main class="container-des">
         <section id="main-description">
-            <h3 id="header"><b>Summary: Latitude vs. X</b></h3>
+            <h3 id="header"><b>Max Temperature</b></h3>
             <hr>
-            <section id="figure">
-                <img id="sample-image" src="Resources/assets/images/latvstemp.png" width="180" height="180"
+            <section id="temp-figure">
+                <img id="sample-image" src="Resources/assets/images/latvstemp.png" width="460" height="300"
                 alt="City Latitude vs. Max Temperature (11/18/20)"
                 title="City Latitude vs. Max Temperature (11/18/20)">
             </section>
-            <p>
-            The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-            </p>
             <br>
             <p>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-                This site provides the source data and visualizations created as part of the analysis, as well as explanations and description 
-                of any trends and correlations witnessed.
+                The City Latitude vs. Max Temperature scatter plot shows the relationship between city latitude and max temperature. 
+                This scatter plot shows two different trends: 1) As latitude increases from point zero (moving in the Northern Hemisphere direction), max temperature tends to decrease, 
+                which means there is an inverse relationship between latitude and temperature. 
+                2) As latitude approaches point zero from the left (moving towards the equator from the Southern Hemisphere), 
+                max temperature tends to increase, which means there is an positive relationship between latitude and temperature.
             </p>
             <section id="for-smaller-screen">
                 <br>
@@ -143,4 +140,3 @@
 </body>
   
 </html>
-  
