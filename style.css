@@ -131,8 +131,8 @@ h6 {
     }
 
     #main-description {
-        margin: 0px 100px;
-        padding: 30px 30px;
+        margin: 0px 20px;
+        padding: 30px;
     }
 
     #comparisons {
@@ -166,19 +166,18 @@ h6 {
 
 @media (max-width: 720px) {
     #main-description {
-        width: 60%;
-        margin: 0px 40px;
+        width: 68.76%;
+        margin: 0px;
     }
 
     #comparisons {
-        width: 60%;
-        margin: 0px 40px;
+        width: 70%;
+        margin: 0px;
     }
 
     #data {
-        width: 66%;
+        width: 70%;
         margin: 0px;;
-        padding: 30px 20px;
     }
 
 
@@ -194,19 +193,32 @@ h6 {
     }
 
     #main-description {
-        width: 46%;
+        width: 59%;
         margin: 0px;
     }
 
     #comparisons {
-        width: 46%;
+        width: 59%;
         margin: 0px;
     }
 
     #data {
-        width: 46px;
-        margin: 40px 5px;
-        padding: 30px 10px;
+        width: 59%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    #main-description {
+        width: 53%;
+    }
+
+    #comparisons {
+        width: 53%;
+    }
+
+    #data {
+        width: 53%;
     }
 
 }
