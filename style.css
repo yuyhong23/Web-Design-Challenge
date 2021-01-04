@@ -223,6 +223,21 @@ h6 {
 
 }
 
+@media (max-width: 480px) {
+    #main-description {
+        width: 46.7%;
+    }
+
+    #comparisons {
+        width: 46.7%;
+    }
+
+    #data {
+        width: 46.7%;
+    }
+
+}
+
 @media (max-width: 396px) {
     #main-description {
         width: 38.6%;
