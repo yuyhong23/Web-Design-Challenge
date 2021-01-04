@@ -105,6 +105,11 @@ h6 {
         background-color:rgba(23, 148, 137, 0.747)!important;
     }
 
+    .navbar-brand {
+        background-color: transparent;
+        font-size: 28px;
+    }
+
     .nav-link:hover {
         background-color: #cccaca93 !important;
     }
@@ -113,8 +118,8 @@ h6 {
         border-color: white !important;
     }
 
-    .collapse {
-        background-color: white;
+    .navbar #navbarNavDropdown{
+        background-color: white !important;
     }
 
     #sidebar-img {
@@ -126,7 +131,7 @@ h6 {
     }
 
     #main-description {
-        margin: 0px 20px;
+        margin: 0px 100px;
         padding: 30px 30px;
     }
 
@@ -147,6 +152,11 @@ h6 {
         margin: 0px;
     }
 
+    #main-description {
+        margin: 0px 60px;
+        padding: 30px 30px;
+    }
+
     #data {
         width: 80%;
         margin: 40px 10px;
@@ -157,12 +167,12 @@ h6 {
 @media (max-width: 720px) {
     #main-description {
         width: 60%;
-        margin: 0px;
+        margin: 0px 40px;
     }
 
     #comparisons {
         width: 60%;
-        margin: 0px;
+        margin: 0px 40px;
     }
 
     #data {
@@ -181,6 +191,16 @@ h6 {
 
     #for-small-screen {
         display: inline;
+    }
+
+    #main-description {
+        width: 50%;
+        margin: 0px;
+    }
+
+    #comparisons {
+        width: 50%;
+        margin: 0px;
     }
 
     #data {
