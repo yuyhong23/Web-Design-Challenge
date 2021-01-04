@@ -223,9 +223,17 @@ h6 {
 
 }
 
-@media (max-width: 370px) {
+@media (max-width: 396px) {
     #main-description {
-        width: 36.2%;
+        width: 38.6%;
+    }
+
+    #header {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
     }
 
     #big-figure img{
@@ -234,11 +242,11 @@ h6 {
     }
 
     #comparisons {
-        width: 36.2%;
+        width: 38.6%;
     }
 
     #data {
-        width: 36.2%;
+        width: 38.6%;
     }
 
 }
