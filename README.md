@@ -3,7 +3,7 @@ Data and instructions provided by UC Berkeley Extension Data Analytics Bootcamp.
 
 # Introduction 
 
-The goal of this assignment is to use my newfound HTML, CSS, and Bootstrap 4 knowledge and skills to create a dashboard showing off the analysis I have done.
+The goal of this assignment is to use my newfound HTML, CSS, and Bootstrap 4 knowledge and skills to create a dashboard showing off the analysis I have done. Webpage: https://yuyhong23.github.io/Web-Design-Challenge/.
 
 # Technologies/Libraries
 
