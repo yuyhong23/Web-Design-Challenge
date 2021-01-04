@@ -101,6 +101,22 @@ h6 {
 }
 
 @media (max-width: 991px) {
+    .navbar {
+        background-color:rgba(23, 148, 137, 0.747)!important;
+    }
+
+    .nav-link:hover {
+        background-color: #cccaca93 !important;
+    }
+
+    .navbar-toggler {
+        border-color: white !important;
+    }
+
+    .collapse {
+        background-color: white;
+    }
+
     #sidebar-img {
         display: none;
     }
@@ -109,9 +125,28 @@ h6 {
         display: inline;
     }
 
+    #main-description {
+        margin: 0px 20px;
+        padding: 30px 30px;
+    }
+
+    #comparisons {
+        margin: 0px 20px;
+        padding: 30px 30px;
+    }
+
+    #data {
+        margin: 0px 20px;
+        padding: 30px 30px;
+    }
+
 }
 
 @media (max-width: 917px) {
+    #comparisons {
+        margin: 0px;
+    }
+
     #data {
         width: 80%;
         margin: 40px 10px;
@@ -122,15 +157,17 @@ h6 {
 @media (max-width: 720px) {
     #main-description {
         width: 60%;
+        margin: 0px;
     }
 
     #comparisons {
         width: 60%;
+        margin: 0px;
     }
 
     #data {
         width: 66%;
-        margin: 40px 5px;
+        margin: 0px;;
         padding: 30px 20px;
     }
 
@@ -138,14 +175,6 @@ h6 {
 }
 
 @media (max-width: 635px) {
-    #main-description {
-        width: 50%;
-    }
-
-    #comparisons {
-        width: 50%;
-    }
-
     #for-smaller-screen {
         display: none;
     }
