@@ -111,6 +111,14 @@ h6 {
 
 }
 
+@media (max-width: 917px) {
+    #data {
+        width: 80%;
+        margin: 40px 10px;
+        padding: 30px 20px;
+    }
+}
+
 @media (max-width: 720px) {
     #main-description {
         width: 60%;
@@ -118,6 +126,12 @@ h6 {
 
     #comparisons {
         width: 60%;
+    }
+
+    #data {
+        width: 66%;
+        margin: 40px 5px;
+        padding: 30px 20px;
     }
 
 
@@ -138,6 +152,12 @@ h6 {
 
     #for-small-screen {
         display: inline;
+    }
+
+    #data {
+        width: 56%;
+        margin: 40px 5px;
+        padding: 30px 10px;
     }
 
 }
