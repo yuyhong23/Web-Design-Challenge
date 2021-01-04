@@ -222,3 +222,23 @@ h6 {
     }
 
 }
+
+@media (max-width: 370px) {
+    #main-description {
+        width: 36.2%;
+    }
+
+    #big-figure img{
+        width: 250px;
+        height: 200px;
+    }
+
+    #comparisons {
+        width: 36.2%;
+    }
+
+    #data {
+        width: 36.2%;
+    }
+
+}
