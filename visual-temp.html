@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Landing Page</title>
+  <title>Max Temperature</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#"><b>Latitude</b></a>
+            <a class="navbar-brand" href="index.html"><b>Latitude</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,9 +47,91 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-8">
-            </div>>
+                <section id="main-description">
+                    <h3 id="header"><b>Max Temperature</b></h3>
+                    <hr>
+                    <section id="big-figure">
+                        <img id="sample-image" src="Resources/assets/images/latvstemp.png"
+                        alt="City Latitude vs. Max Temperature (11/18/20)"
+                        title="City Latitude vs. Max Temperature (11/18/20)">
+                    </section>
+                    <br>
+                    <p>
+                        Looking at the scatter plot and linear regressions we created for comparing latitude and max temperature, it is safe to say that these are the proofs for the answer that it gets hotter as we get closer to the equator. 
+                        To elaborate, from the scattor plot, we can see an n-shape, with equator being the middle point. In addition, the linear regression created for the Northern Hemisphere shows a strong negative relationship between latitude and max temperature, 
+                        meaning as the latitude increases from the equator, the max temperature will descrease. Similarly, the linear regression created for the Southern Hemisphere shows a moderate positive relationship between latitude and max temperature, 
+                        meaning as the latitude increases in the Southern Hemisphere(getting closer to equator), the max temperature will increase. These findings make sense, because equator is the closest to the sun, and so, it should be hotter the closer we are to the equator.
+                    </p>
+                    <section id="for-smaller-screen">
+                        <br>
+                        <h4 id="side-header"><b>Visualizations</b></h4>
+                        <hr>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <a href="visual-temp.html">
+                                        <img src="Resources/assets/images/latvstemp.png"
+                                        alt="City Latitude vs. Max Temperature (11/18/20)"
+                                        title="City Latitude vs. Max Temperature (11/18/20)">
+                                    </a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="visual-humi.html">
+                                        <img src="Resources/assets/images/latvshumi.png"
+                                        alt="City Latitude vs. Humidity (11/18/20)"
+                                        title="City Latitude vs. Humidity (11/18/20)">
+                                    </a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="visual-cloud.html">
+                                        <img src="Resources/assets/images/latvscloud.png"
+                                        alt="City Latitude vs. Cloudiness (11/18/20)"
+                                        title="City Latitude vs. Cloudiness (11/18/20)">
+                                    </a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="visual-wind.html">
+                                        <img src="Resources/assets/images/latvswind.png"
+                                        alt="City Latitude vs. Wind Speed (11/18/20)"
+                                        title="City Latitude vs. Wind Speed (11/18/20)">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+
+            <div class="col-lg-4" id="sidebar-img">
+                <h4 id="side-header"><b>Visualizations</b></h4>
+                <hr>
+                <a href="visual-temp.html">
+                    <img src="Resources/assets/images/latvstemp.png"
+                    alt="City Latitude vs. Max Temperature (11/18/20)"
+                    title="City Latitude vs. Max Temperature (11/18/20)">
+                </a>
+                <a href="visual-humi.html">
+                    <img src="Resources/assets/images/latvshumi.png"
+                    alt="City Latitude vs. Humidity (11/18/20)"
+                    title="City Latitude vs. Humidity (11/18/20)">
+                </a>
+                <a href="visual-cloud.html">
+                    <img src="Resources/assets/images/latvscloud.png" 
+                    alt="City Latitude vs. Cloudiness (11/18/20)"
+                    title="City Latitude vs. Cloudiness (11/18/20)">
+                </a>
+                <a href="visual-wind.html">
+                    <img src="Resources/assets/images/latvswind.png"
+                    alt="City Latitude vs. Wind Speed (11/18/20)"
+                    title="City Latitude vs. Wind Speed (11/18/20)">
+                </a>
+            </div>
         </div>
-    </div>>
+    </div>
+
+    <div class="footer">
+        <footer> <small> Copyright &copy; 2020 Yuying Hong. All Right Reserved</small> </footer> 
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

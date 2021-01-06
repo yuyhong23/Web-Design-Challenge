@@ -59,7 +59,7 @@ The website must consist of 7 pages total, including:
 
 # Process and Credits
 
-My first assignment using HTML, CSS and Bootstrap. I used class materials and outside resources for reference. For this assignment, I spent a lot of time fixing the styling for the navbar and width for different screen size.
+My first assignment using HTML, CSS and Bootstrap. I used class materials and outside resources for reference. For this assignment, I spent a lot of time fixing the styling for the navbar and width for different screen size. After talking to my groupmates and rereading the rubric, I realized that I need to use bootstrap grid to organize the sections, so I had to add that in for all the html and adjust the css file.
 
 Here are the outside resources that I used for this assignment (as well as attempts):
 
@@ -76,4 +76,5 @@ Here are the outside resources that I used for this assignment (as well as attem
 - https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
 - https://stackoverflow.com/questions/43381596/bootstrap-4-navbar-color
 - https://stackoverflow.com/questions/41896043/bootstrap-4-collapsed-navbar-background-color
+- https://love2dev.com/blog/html-website-copyright/
 
