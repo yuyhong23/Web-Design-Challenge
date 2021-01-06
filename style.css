@@ -80,6 +80,11 @@ body {
     text-align: center;
 }
 
+.container-compar img{
+    width: 320px; 
+    height: 200px;
+}
+
 #click-on {
     font-size: 12px;
 }
@@ -87,6 +92,10 @@ body {
 h6 {
     color:rgba(23, 148, 137, 0.747);
     font-size: 16px;
+}
+
+#break {
+    display: none;
 }
 
 #data {
@@ -145,6 +154,15 @@ h6 {
         display: inline;
     }
 
+    #comparisons {
+        margin: 0px;
+    }
+    
+    .container-compar img{
+        width: 260px; 
+        height: 180px;
+    }
+
     #data {
         font-size: 12px;
         margin: 0px;
@@ -156,11 +174,19 @@ h6 {
         width: 100px;
         height: 100px;
     }
+
+    #break {
+        display: inline;
+    }
 }
 
 @media (max-width: 575px) {
     #main-description {
         font-size: 12px;
+    }
+
+    #header {
+        font-size: 20px;
     }
 
     #figure img{
@@ -172,4 +198,9 @@ h6 {
         width: 200px;
         height: 150px;
     }
+
+    h6 {
+        font-size: 14px;
+    }
+    
 }
