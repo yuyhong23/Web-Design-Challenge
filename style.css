@@ -18,37 +18,21 @@ body {
     text-align: left;
 }
 
-.container-des {
-    width: 1024px;
-    margin: 0 auto;
-}
-
 #main-description {
-    width: 70%;
     text-align: left;
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    margin: 40px 14px;
+    margin: 40px 10px;
     padding: 30px 20px;
     float: left;
 }
 
-#figure {
+#figure img{
     position: relative;
+    width: 300px;
+    height: 240px;
     float: left;
-}
-
-#sidebar-img {
-    position: absolute;
-    width: 26%;
-    display: inline-block;
-    background-color: white;
-    font-size: 16px;
-    margin: 40px;
-    margin-left: 10px;
-    padding: 24px 20px;
-    color:rgba(23, 148, 137, 0.747);
 }
 
 #for-smaller-screen {
@@ -57,10 +41,26 @@ body {
     color:rgba(23, 148, 137, 0.747);
 }
 
-#for-small-screen {
-    display: none;
+#for-smaller-screen img {
+    width: 130px;
+    height: 130px;
+}
+
+#sidebar-img {
+    text-align: left;
+    display: inline-block;
+    background-color: white;
     font-size: 16px;
+    margin: 40px 0px;
+    padding: 36px 20px;
     color:rgba(23, 148, 137, 0.747);
+}
+
+#sidebar-img img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
 }
 
 #big-figure {
@@ -68,7 +68,6 @@ body {
 }
 
 #comparisons {
-    width: 86%;
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -91,18 +90,27 @@ h6 {
 }
 
 #data {
-    width: 86%;
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
-    margin: 40px 20px;
+    font-size: 14px;
+    margin: 40px 40px;
     padding: 30px 30px;
-    float: left;
+}
+
+@media (max-width: 1199px) {
+    #sidebar-img img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    }
 }
 
 @media (max-width: 991px) {
     .navbar {
         background-color:rgba(23, 148, 137, 0.747)!important;
+        padding: 0px !important;
+        margin: 0px !important;
     }
 
     .navbar-brand {
@@ -122,6 +130,13 @@ h6 {
         background-color: white !important;
     }
 
+    #main-description {
+        font-size: 14px;
+        margin: 0px;
+        padding: 30px 20px;
+        float: left;
+    }
+
     #sidebar-img {
         display: none;
     }
@@ -130,169 +145,31 @@ h6 {
         display: inline;
     }
 
-    #main-description {
-        margin: 0px 40px;
-        padding: 30px;
-    }
-
-    #comparisons {
-        margin: 0px 40px;
-        padding: 30px 30px;
-    }
-
     #data {
-        margin: 0px 40px;
-        padding: 30px 30px;
-    }
-
-}
-
-@media (max-width: 917px) {
-    #comparisons {
+        font-size: 12px;
         margin: 0px;
     }
+}
 
-    #main-description {
-        margin: 0px 60px;
-        padding: 30px 30px;
-    }
-
-    #data {
-        width: 80%;
-        margin: 0px 20px;
-        padding: 30px 20px;
+@media (max-width: 767px) {
+    #for-smaller-screen img {
+        width: 100px;
+        height: 100px;
     }
 }
 
-@media (max-width: 777px) {
+@media (max-width: 575px) {
     #main-description {
-        width: 76%;
-        margin: 0px;
-    }
-
-    #comparisons {
-        width: 76%;
-        margin: 0px;
-    }
-
-    #data {
-        width: 74.5%;
-        margin: 0px;;
-    }
-
-}
-
-@media (max-width: 635px) {
-    #for-smaller-screen {
-        display: none;
-    }
-
-    #for-small-screen {
-        display: inline;
-    }
-
-    #main-description {
-        width: 61.8%;
-    }
-
-    #comparisons {
-        width: 60.6%;
-    }
-
-    #data {
-        width: 60.5%;
-    }
-
-}
-
-@media (max-width: 550px) {
-    #main-description {
-        width: 52.3%;
-    }
-
-    #comparisons {
-        width: 52.3%;
-    }
-
-    #data {
-        width: 52.3%;
-    }
-
-}
-
-@media (max-width: 480px) {
-    #main-description {
-        width: 45.4%;
-    }
-
-    #comparisons {
-        width: 45.4%;
-    }
-
-    #data {
-        width: 45.4%;
-    }
-
-}
-
-@media (max-width: 400px) {
-    #main-description {
-        width: 37.5%;
-    }
-
-    #header {
-        font-size: 20px;
-    }
-
-    p {
         font-size: 12px;
     }
 
-    #comparisons {
-        width: 37.5%;
-    }
-
-    #big-figure img{
+    #figure img{
         width: 260px;
-        height: 210px;
+        height: 200px;
     }
 
-    #data {
-        width: 37.4%;
-    }
-
-}
-
-@media (max-width: 300px) {
-    #main-description {
-        width: 28%;
-    }
-
-    #header {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 10px;
-    }
-
-    #comparisons {
-        width: 28%;
-    }
-
-    .container-compar img {
-        width: 180px;
-        height: 120px;
-    }
-
-    #big-figure img{
+    #for-smaller-screen img {
         width: 200px;
         height: 150px;
     }
-
-    #data {
-        width: 27.5%;
-    }
-
 }
-

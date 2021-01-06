@@ -44,144 +44,98 @@
         </div>
     </nav>
 
-    <main class="container-des">
-        <section id="main-description">
-            <h3 id="header"><b>Summary: Latitude vs. X</b></h3>
-            <hr>
-            <section id="figure">
-                <img id="sample-image" src="Resources/assets/images/latvstemp.png" width="180" height="180"
-                alt="City Latitude vs. Max Temperature (11/18/20)"
-                title="City Latitude vs. Max Temperature (11/18/20)">
-            </section>
-            <p>
-            The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-            </p>
-            <br>
-            <p>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
-                This site provides the source data and visualizations created as part of the analysis, as well as explanations and description 
-                of any trends and correlations witnessed.
-            </p>
-            <section id="for-smaller-screen">
-                <br>
-                <h4 id="side-header"><b>Visualizations</b></h4>
-                <hr>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <a href="visual-temp.html">
-                                <img src="Resources/assets/images/latvstemp.png" width="120" height="120"
-                                alt="City Latitude vs. Max Temperature (11/18/20)"
-                                title="City Latitude vs. Max Temperature (11/18/20)">
-                            </a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <section id="main-description">
+                    <h3 id="header"><b>Summary: Latitude vs. X</b></h3>
+                    <hr>
+                    <section id="figure">
+                        <img id="sample-image" src="Resources/assets/images/latvstemp.png"
+                        alt="City Latitude vs. Max Temperature (11/18/20)"
+                        title="City Latitude vs. Max Temperature (11/18/20)">
+                    </section>
+                    <p>
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                    To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    </p>
+                    <br>
+                    <p>
+                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
+                        Factors we looked at included: temperature, cloudiness, wind speed, and humidity. 
+                        This site provides the source data and visualizations created as part of the analysis, as well as explanations and description 
+                        of any trends and correlations witnessed.
+                    </p>
+                    <section id="for-smaller-screen">
+                        <br>
+                        <h4 id="side-header"><b>Visualizations</b></h4>
+                        <hr>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <a href="visual-temp.html">
+                                        <img src="Resources/assets/images/latvstemp.png"
+                                        alt="City Latitude vs. Max Temperature (11/18/20)"
+                                        title="City Latitude vs. Max Temperature (11/18/20)">
+                                    </a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="visual-humi.html">
+                                        <img src="Resources/assets/images/latvshumi.png"
+                                        alt="City Latitude vs. Humidity (11/18/20)"
+                                        title="City Latitude vs. Humidity (11/18/20)">
+                                    </a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="visual-cloud.html">
+                                        <img src="Resources/assets/images/latvscloud.png"
+                                        alt="City Latitude vs. Cloudiness (11/18/20)"
+                                        title="City Latitude vs. Cloudiness (11/18/20)">
+                                    </a>
+                                </div>
+                                <div class="col-sm-3">
+                                    <a href="visual-wind.html">
+                                        <img src="Resources/assets/images/latvswind.png"
+                                        alt="City Latitude vs. Wind Speed (11/18/20)"
+                                        title="City Latitude vs. Wind Speed (11/18/20)">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-3">
-                            <a href="visual-humi.html">
-                                <img src="Resources/assets/images/latvshumi.png" width="120" height="120"
-                                alt="City Latitude vs. Humidity (11/18/20)"
-                                title="City Latitude vs. Humidity (11/18/20)">
-                            </a>
-                        </div>
-                        <div class="col-sm-3">
-                            <a href="visual-cloud.html">
-                                <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
-                                alt="City Latitude vs. Cloudiness (11/18/20)"
-                                title="City Latitude vs. Cloudiness (11/18/20)">
-                            </a>
-                        </div>
-                        <div class="col-sm-3">
-                            <a href="visual-wind.html">
-                                <img src="Resources/assets/images/latvswind.png" width="120" height="120"
-                                alt="City Latitude vs. Wind Speed (11/18/20)"
-                                title="City Latitude vs. Wind Speed (11/18/20)">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="for-small-screen">
-                <br>
-                <h4 id="side-header"><b>Visualizations</b></h4>
-                <hr>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="visual-temp.html" >
-                                <img src="Resources/assets/images/latvstemp.png" width="120" height="120"
-                                alt="City Latitude vs. Max Temperature (11/18/20)"
-                                title="City Latitude vs. Max Temperature (11/18/20)">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="visual-humi.html">
-                                <img src="Resources/assets/images/latvshumi.png" width="120" height="120"
-                                alt="City Latitude vs. Humidity (11/18/20)"
-                                title="City Latitude vs. Humidity (11/18/20)">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="visual-cloud.html">
-                                <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
-                                alt="City Latitude vs. Cloudiness (11/18/20)"
-                                title="City Latitude vs. Cloudiness (11/18/20)">
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="visual-wind.html">
-                                <img src="Resources/assets/images/latvswind.png" width="120" height="120"
-                                alt="City Latitude vs. Wind Speed (11/18/20)"
-                                title="City Latitude vs. Wind Speed (11/18/20)">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <aside id="sidebar-img">
-            <h4 id="side-header"><b>Visualizations</b></h4>
-            <hr>
-            <div class= "container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <a href="visual-temp.html">
-                            <img src="Resources/assets/images/latvstemp.png" width="120" height="120"
-                            alt="City Latitude vs. Max Temperature (11/18/20)"
-                            title="City Latitude vs. Max Temperature (11/18/20)">
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <a href="visual-humi.html">
-                            <img src="Resources/assets/images/latvshumi.png" width="120" height="120"
-                            alt="City Latitude vs. Humidity (11/18/20)"
-                            title="City Latitude vs. Humidity (11/18/20)">
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <a href="visual-cloud.html">
-                            <img src="Resources/assets/images/latvscloud.png" width="120" height="120"
-                            alt="City Latitude vs. Cloudiness (11/18/20)"
-                            title="City Latitude vs. Cloudiness (11/18/20)">
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <a href="visual-wind.html">
-                            <img src="Resources/assets/images/latvswind.png" width="120" height="120"
-                            alt="City Latitude vs. Wind Speed (11/18/20)"
-                            title="City Latitude vs. Wind Speed (11/18/20)">
-                        </a>
-                    </div>
-                </div>
+                    </section>
+                </section>
             </div>
-        </aside>
-    </main>
+
+            <div class="col-lg-4" id="sidebar-img">
+                <h4 id="side-header"><b>Visualizations</b></h4>
+                <hr>
+                <a href="visual-temp.html">
+                    <img src="Resources/assets/images/latvstemp.png"
+                    alt="City Latitude vs. Max Temperature (11/18/20)"
+                    title="City Latitude vs. Max Temperature (11/18/20)">
+                </a>
+                <a href="visual-humi.html">
+                    <img src="Resources/assets/images/latvshumi.png"
+                    alt="City Latitude vs. Humidity (11/18/20)"
+                    title="City Latitude vs. Humidity (11/18/20)">
+                </a>
+                <a href="visual-cloud.html">
+                    <img src="Resources/assets/images/latvscloud.png" 
+                    alt="City Latitude vs. Cloudiness (11/18/20)"
+                    title="City Latitude vs. Cloudiness (11/18/20)">
+                </a>
+                <a href="visual-wind.html">
+                    <img src="Resources/assets/images/latvswind.png"
+                    alt="City Latitude vs. Wind Speed (11/18/20)"
+                    title="City Latitude vs. Wind Speed (11/18/20)">
+                </a>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-  
+
 </html>
-  
