@@ -118,7 +118,7 @@ h6 {
         border-color: white !important;
     }
 
-    .navbar #navbarNavDropdown{
+    .navbar #navbarNavDropdown {
         background-color: white !important;
     }
 
@@ -131,17 +131,17 @@ h6 {
     }
 
     #main-description {
-        margin: 0px 20px;
+        margin: 0px 40px;
         padding: 30px;
     }
 
     #comparisons {
-        margin: 0px 20px;
+        margin: 0px 40px;
         padding: 30px 30px;
     }
 
     #data {
-        margin: 0px 20px;
+        margin: 0px 40px;
         padding: 30px 30px;
     }
 
@@ -164,22 +164,21 @@ h6 {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 777px) {
     #main-description {
-        width: 68.76%;
+        width: 76%;
         margin: 0px;
     }
 
     #comparisons {
-        width: 70%;
+        width: 76%;
         margin: 0px;
     }
 
     #data {
-        width: 70%;
+        width: 74.5%;
         margin: 0px;;
     }
-
 
 }
 
@@ -193,54 +192,52 @@ h6 {
     }
 
     #main-description {
-        width: 59%;
-        margin: 0px;
+        width: 61.8%;
     }
 
     #comparisons {
-        width: 59%;
-        margin: 0px;
+        width: 60.6%;
     }
 
     #data {
-        width: 59%;
+        width: 60.5%;
     }
 
 }
 
 @media (max-width: 550px) {
     #main-description {
-        width: 53%;
+        width: 52.3%;
     }
 
     #comparisons {
-        width: 53%;
+        width: 52.3%;
     }
 
     #data {
-        width: 53%;
+        width: 52.3%;
     }
 
 }
 
 @media (max-width: 480px) {
     #main-description {
-        width: 46.7%;
+        width: 45.4%;
     }
 
     #comparisons {
-        width: 46.7%;
+        width: 45.4%;
     }
 
     #data {
-        width: 46.7%;
+        width: 45.4%;
     }
 
 }
 
-@media (max-width: 396px) {
+@media (max-width: 400px) {
     #main-description {
-        width: 38.6%;
+        width: 37.5%;
     }
 
     #header {
@@ -251,17 +248,51 @@ h6 {
         font-size: 12px;
     }
 
-    #big-figure img{
-        width: 250px;
-        height: 200px;
+    #comparisons {
+        width: 37.5%;
     }
 
-    #comparisons {
-        width: 38.6%;
+    #big-figure img{
+        width: 260px;
+        height: 210px;
     }
 
     #data {
-        width: 38.6%;
+        width: 37.4%;
     }
 
 }
+
+@media (max-width: 300px) {
+    #main-description {
+        width: 28%;
+    }
+
+    #header {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #comparisons {
+        width: 28%;
+    }
+
+    .container-compar img {
+        width: 180px;
+        height: 120px;
+    }
+
+    #big-figure img{
+        width: 200px;
+        height: 150px;
+    }
+
+    #data {
+        width: 27.5%;
+    }
+
+}
+
